@@ -1,0 +1,237 @@
+/* Credit to Ryan Milligan for the CSS (Header & Footer) */
+/* https://codepen.io/hexagoncircle/pen/yvxyPW */
+/* https://blog.avada.io/examples/flexbox-sticky-footer-example-ryanmulligan.html */
+
+/* Credit to w3schools for the centre box. (https://www.w3schools.com/css/css3_borders.asp) */
+
+/* Credit to user3668456 on stackoverflow (https://stackoverflow.com/a/43162458)*/
+
+.site-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.align-left {
+  text-align: left
+}
+
+main {
+  flex: 1;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #ccc;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+header {
+    margin-top: -15px;
+    margin-left: -15px;
+    margin-right: -15px;
+    color: white;
+    background-color: #444;
+    text-align:center;
+    padding: 6px;
+    font-size: 28px;
+}
+
+.header2 {
+    margin-left: -15px;
+    margin-right: -15px;
+    color: white;
+    background-color: #444;
+    text-align:center;
+    padding: 4px;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+main {
+  padding: 18px;
+}
+
+main {
+  margin: 24px auto;
+}
+
+h1, p {
+  margin-bottom: 24px;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+  line-height: 0.15;
+}
+
+p {
+  line-height: 1.4;
+}
+
+b {
+	font-size: 15px;
+}
+
+label {
+  font-weight: 700;
+}
+
+mark {
+    background:none;
+}
+
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
+
+.main-content {
+  display: none;
+}
+
+input:checked ~ .main-content {
+  display: block;
+}
+
+samp {
+  background-color: #444;
+  color: #ff69b4;
+}
+
+.no-line-space {
+  line-height: 0.5;
+}
+
+#rcorners2 {
+    border-radius: 25px;
+    border: 3px solid #333;
+    background-color: #444;
+    color: #fff;
+    padding: 20px;
+    width: 600px;
+    height: 150px;
+  }
+
+  #rcorners2-servers {
+    border-radius: 25px;
+    border: 3px solid #333;
+    background-color: #444;
+    color: #fff;
+    padding: 20px;
+    width: 600px;
+    height: 200px;
+  }
+
+.container {
+  display: flex;
+}
+.container > div {
+  flex: 1;
+}
+
+.hover-tabsplace:hover:after {
+    content:'tabs.place/404';
+    /* code stole from codingnepal */
+    background: repeating-linear-gradient(-45deg, red 0%, yellow 7.14%, rgb(0,255,0) 14.28%, rgb(0,255,255) 21.4%, blue 35.7%, magenta 42.84%, red 50%);
+    background-size: 600vw 600vw;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: slide 3s linear infinite forwards;
+}
+@keyframes slide {
+  0%{
+    background-position-x: 0%;
+  }
+  100%{
+    background-position-x: 600vw;
+  }
+}
+
+.hover-tabsplace:after{
+    content:"tabs.place/404";
+    background: repeating-linear-gradient(-45deg, red 0%, yellow 7.14%, rgb(0,255,0) 14.28%, rgb(0,255,255) 21.4%, blue 35.7%, magenta 42.84%, red 50%);
+    background-size: 600vw 600vw;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: slide 3s linear infinite forwards;
+}
+
+/* Colours */
+.tabsplace {
+    color:rgb(52, 42, 150);
+}
+
+.playnow {
+    color:#ff69b4;
+}
+
+.blurple {
+    color:#5865F2;
+}
+
+.steam {
+    color: #66c0f4;
+}
+
+.store {
+    color: #ffff00;
+}
+
+.link-white {
+    color: #fff;
+    text-decoration: none;
+}
+
+.tabs-grey {
+  color: #333;
+  text-decoration: none;
+}
+
+.white {
+  color: #fff;
+  text-decoration: none;
+}
+
+.alert-red {
+  color: #da4848;
+  text-decoration: none;
+}
+
+.mod-green {
+	color: #26de57;
+}
+
+.orange {
+  color: #FF8C00;
+}
+
+.player {
+	color: #faec28;
+}
+
+.member {
+	color: #5dd9c0;
+}
+
+.loyal {
+	color: #e69627;
+}
+
+.regular {
+	color: #c19ede;
+}
