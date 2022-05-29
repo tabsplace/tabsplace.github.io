@@ -1,6 +1,16 @@
 # tabsplace.github.io
 tabs.place website.
 
-Credit to alot of people,
+Credit to alot of people:
+Ryan Milligan for the CSS (Header & Footer):
+ - https://codepen.io/hexagoncircle/pen/yvxyPW
+ - https://blog.avada.io/examples/flexbox-sticky-footer-example-ryanmulligan.html
 
-I should probably list them but this code is so old and repurposed I gotta go back and find who I stole from lmao
+w3schools for the centre box:
+  - https://www.w3schools.com/css/css3_borders.asp
+
+user3668456:
+  - https://stackoverflow.com/a/43162458
+
+xPaw (Status Page code):
+ - https://github.com/xPaw/PHP-Source-Query
