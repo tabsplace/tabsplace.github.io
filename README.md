@@ -2,7 +2,7 @@
 tabs.place website.
 
 Credit to alot of people:
-Ryan Milligan for the CSS (Header & Footer):
+Ryan Mulligan for the CSS (Header & Footer):
  - https://codepen.io/hexagoncircle/pen/yvxyPW
  - https://blog.avada.io/examples/flexbox-sticky-footer-example-ryanmulligan.html
 
